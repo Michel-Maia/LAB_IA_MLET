@@ -1,0 +1,87 @@
+{
+    "git.confirmSync": true,
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "debug.onTaskErrors": "debugAnyway",
+    "cmake.configureOnOpen": true,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "window.zoomLevel": -1,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "C_Cpp.autocompleteAddParentheses": true,
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/src/aula_04/**",
+        "${workspaceFolder}/src/aula_04/pkg/**"
+    ],
+    "autoDocstring.includeExtendedSummary": false,
+    "autoDocstring.includeName": false,
+    "autoDocstring.startOnNewLine": true,
+    "python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.fixAll": [],
+    "python.analysis.extraPaths": [],
+    "python.analysis.indexing": false,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.packageIndexDepths": [
+        {
+          "name": "sklearn",
+          "depth": 2
+        },
+        {
+          "name": "matplotlib",
+          "depth": 2
+        },
+        {
+          "name": "scipy",
+          "depth": 2
+        },
+        {
+          "name": "langchain",
+          "depth": 2
+        },
+        {
+          "name": "fastapi",
+          "depth": 2
+        },
+        {
+          "name": "asyncpg",
+          "depth": 1
+        },
+        {
+          "name": "motor",
+          "depth": 1
+        }
+      ],
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "pylint.args": ["--rcfile=${workspaceFolder}/pyproject.toml"],
+    "black-formatter.args": ["--config ${workspaceFolder}/pyproject.toml"],
+    //"isort.args": [],
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "docwriter.style": "Auto-detect",
+    "docwriter.progress.trackClasses": true,
+    "wolf.disableHotModeWarning": true,
+    "terminal.integrated.env.windows": {
+      "PYTHONPATH": "${workspaceFolder}/src",
+    },
+    "search.useIgnoreFiles": true,
+    "appService.defaultWebAppToDeploy": "None",
+    "azureFunctions.deploySubpath": "src\\tools\\research",
+    "azureFunctions.scmDoBuildDuringDeployment": true,
+    "azureFunctions.pythonVenv": ".venv",
+    "azureFunctions.projectLanguage": "Python",
+    "azureFunctions.projectRuntime": "~4",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.projectLanguageModel": 2,
+    "python.terminal.activateEnvironment": true,
+    "files.associations": {
+      "MLTable": "yaml",
+      "*.js": "javascript",
+      "sparse": "cpp",
+      "dense": "cpp"
+    }
+}
